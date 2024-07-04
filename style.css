@@ -1,0 +1,100 @@
+body{
+    background-color: #313131;
+    overflow: hidden;
+}
+.startDiv{
+    width: 100%;
+    height: 4rem;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.startBtn{
+    padding: 10px 20px;
+    border: none;
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.543);
+}
+.startBtn:hover{
+    box-shadow: none;
+    scale: 0.95;
+} 
+.startBtn:active{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.543);
+    scale: 1;
+}
+.instruction{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-size: 25px;
+    display: none;
+}
+.images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-container{
+    width: 100vw;
+    display: flex;    
+    height: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 15px;
+}
+.img-container img{
+    display: none;
+    opacity: 0.5;
+    border-radius: 50%;
+    transform:rotate(-90deg);
+    transition: scale 0.3s ease;
+}
+.img-container img:hover{
+    scale: 1.05;
+    opacity: 1;
+}
+.choices{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.score{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.final-score{
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-weight: 500;
+}
+.showcase{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-weight: 500;
+}
+.rr{
+    font-size: 2.5rem;
+}
+.tie{
+    color: #fff;
+}
+.win{
+    color: rgb(1, 190, 115);
+}
+.lose{
+    color: rgb(182, 35, 6);
+}
